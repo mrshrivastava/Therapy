@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "675844563658",
+    "project_id": "therapy-bc6a8",
+    "storage_bucket": "therapy-bc6a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675844563658:android:2f495958bc13b173414a33",
+        "android_client_info": {
+          "package_name": "com.example.therapy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675844563658-7d3bunkhc1gaq3qtl2pp34mokb8a24md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.therapy",
+            "certificate_hash": "e66cd9a1b24321de7e63dbe9b0a6674309dee3ac"
+          }
+        },
+        {
+          "client_id": "675844563658-8u6pe24ccn8o7bd6998ht20trmonr649.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKw5FRunoWc8QPUJaTyfPGJCivWF6hlDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675844563658-8u6pe24ccn8o7bd6998ht20trmonr649.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
