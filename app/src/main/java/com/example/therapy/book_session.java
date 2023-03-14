@@ -34,15 +34,15 @@ public class book_session extends AppCompatActivity {
 
         submit.setOnClickListener(view -> {
 
-            String name=namefield.getText().toString();
-            String phone=phonefield.getText().toString();
-            String age=agefield.getText().toString();
-            String gender=genderfield.getText().toString();
-            String marital=maritalstatusfield.getText().toString();
-            String domicile=domicilefield.getText().toString();
-            String edu=educationfield.getText().toString();
-            String occ=occupationfield.getText().toString();
-            String concern=concernfield.getText().toString();
+            String name=namefield.getText().toString().trim();
+            String phone=phonefield.getText().toString().trim();
+            String age=agefield.getText().toString().trim();
+            String gender=genderfield.getText().toString().trim();
+            String marital=maritalstatusfield.getText().toString().trim();
+            String domicile=domicilefield.getText().toString().trim();
+            String edu=educationfield.getText().toString().trim();
+            String occ=occupationfield.getText().toString().trim();
+            String concern=concernfield.getText().toString().trim();
             Intent intent=new Intent(book_session.this,confirm_session.class);
 
             intent.putExtra("keyname",name);
